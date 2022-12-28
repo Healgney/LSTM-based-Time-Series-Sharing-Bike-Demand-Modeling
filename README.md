@@ -53,7 +53,7 @@ Among similar deep learning algorithms, there is another integrated model called
 
 &nbsp;
 
-1.  Study Area
+**4.1  Study Area**
 
 New York is located at 74°00′ W, 40°43′N, at the mouth of the Hudson River on the northeastern coast of the United States, bordering the Atlantic Ocean. It is bounded by New Jersey to the west and Rhode Island to the north. It has a total area of 1,214 square kilometers, of which 425 square kilometers is water and 789 square kilometers is land.
 
@@ -65,7 +65,7 @@ The Hudson River in New York flows through the Hudson Valley and enters New York
 
 ![Study Areajpg](https://user-images.githubusercontent.com/8214596/209771068-1a0debd0-4e9f-4618-9417-f3ea41eddd36.jpg)
 
-2.  Datasets
+**4.2  Datasets**
 
 We obtained the shared bicycle data from July 1, 2021, 0:00 to July 31, 2022, 23:00 from citibike official website. The original data recorded 32785175 trips, sampled at hourly frequency, and the length of the sampled data set is 9504. 
 
