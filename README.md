@@ -143,7 +143,7 @@ The graph of the relationship between temperature and bike-sharing usage shows t
 
 5.  **Methodology**
 
-**4.1 Introduction of LSTM  **
+**5.1 Introduction of LSTM  **
 
 LSTM network is another variant model based on Recurrent Neural Network (RNN), in which each independent RNN unit in the transmission chain passes the information extracted by itself to the next independent unit, and when the length of the transmission chain increases to a certain level, information is lost and "forgetting" occurs. ". To solve this dependency problem, Hochreiter et al. first proposed LSTM (Hochreiter & Schmidhuber, 1997) in 1997. The independent RNN unit and RNN structure are shown in Figs. 7 and 8. 
 
@@ -179,7 +179,7 @@ $o_{t} = \sigma(W_{o}\left\lbrack h_{t - 1},x_{t} \right\rbrack + b_{o})$ （5�
 
 $h_{t} = o_{t} \times tanh(C_{t})$ （6）
 
-**4.2 Bi-LSTM **
+**5.2 Bi-LSTM**
 
 ![bi_lstm_structure](https://user-images.githubusercontent.com/8214596/209771340-7c9839d5-fa32-4d32-a840-c703949b486e.png)
 
@@ -191,7 +191,7 @@ The Structure of Bi-LSTM is shown in the figure 11. In summary, Bi-LSTM adds one
 
 A Bi-LSTM algorithm is used in this study. 
 
-**4.3 Modelling Tasks **
+**5.3 Modelling Tasks**
 
 In this study, the model code is written in Python language, and the Tensorflow-Keras-based development framework is used to build the LSTM model to implement the computation. The model is trained using Apple Silicon M1 Pro GPU. 80% of the randomly selected dataset is used as the training set for feature learning of the model, and 20% is used as the test set to evaluate the model prediction capability. 
 
@@ -224,7 +224,7 @@ The model is trained according to the model structure and learning strategy that
 
 Figure 12 shows the changing loss function of the model in the training and test sets during the training process, and it can be seen that the curve is decreasing and finally converges to zero. 
 
-6.  **Results Visualization **
+6.  **Results Visualization**
 
 Choose 400 prediction results arbitrarily and visualize in the graph below.  
 
@@ -270,7 +270,7 @@ The prediction result of the complete dataset trained with the best model settin
 
 However, it can be seen that temporal features are less influential than weather features in affecting the demands of shared bikes. Adding temporal features alone could possibly introducing inaccurate priori knowledge to the deep learning model that resulted in lower accuracy of the prediction results. Therefore, more accurate prediction are the results of adding the combination of temporal and weather features.  
 
-7.  **Conclusion **
+7.  **Conclusion**
 
 In this paper, we first obtained the open-source bicycle sharing data of citibike, dated from July 1, 2021 to July 31, 2022, with a total of 32785175 bicycle sharing trip records. And the trip records are sampled and accumulated in hourly frequency, and the resampled data are concatenated with corresponding weather features and time features. The following conclusions based on the data features are concluded:
 
