@@ -43,7 +43,7 @@ Unfortunately, these deep learning models based on time-series prediction cannot
 
 Among similar deep learning algorithms, there is another integrated model called T-GCN (Temporal Graph Convolutional Network), which is a neural network-based traffic prediction method. Unlike CNN (Convolutional Neural Network), T-GCN combines Graph Convolutional Network (GCN) and Gated Recursive Unit (GRU) to capture spatial dependencies by learning complex topology with GCN, and temporal dependencies by learning dynamic changes of traffic data with GRU. Therefore, T-GCN has the capability of temporal feature learning and can capture both spatial and temporal dependencies simultaneously. Zhao et al. proposed T-GCN model which combines the GCN with the GRU. This model can extract the spatio-temporal correlation from traffic data, and its predictions on real-world traffic datasets exceed state-of-the-art baselines (Zhao et al., 2020).
 
-3.  **Objectives **
+3.  **Objectives**
 
 - Dealing with weather and temporal features. Explore, analyze and quantify how weather and temporal features effect the demand of shared bikes.
 
