@@ -63,7 +63,7 @@ New York has a temperate continental humid climate with cold winters and cool su
 
 The Hudson River in New York flows through the Hudson Valley and enters New York Bay, dividing New York City and New Jersey. The East River flows through Long Island Sound, separating the Bronx and Manhattan from Long Island. The Harlem River lies between the East River and the Hudson River, separating the boroughs of Manhattan and the Bronx. The Bronx River, which flows through the Bronx and Westchester County, is the only river in New York City that is all fresh water.
 
-![地图 描述已自动生成](Figures/Study Areajpg.jpg)
+![Study Areajpg](https://user-images.githubusercontent.com/8214596/209771068-1a0debd0-4e9f-4618-9417-f3ea41eddd36.jpg)
 
 2.  Datasets
 
@@ -95,45 +95,47 @@ From the related bicycle sharing research articles, we know that the weather fac
 | Partially cloudy                              | 1     |
 | Snow, Rain                                    | 8     |
 
- ![图表, 折线图 描述已自动生成](media/image2.png)
+![monthly demand](https://user-images.githubusercontent.com/8214596/209771132-108c7078-0374-49b8-9021-5eeee487fb97.png)
 
-![图表, 折线图, 直方图 描述已自动生成](media/image3.png)
+![annual daily demand](https://user-images.githubusercontent.com/8214596/209771183-49e1869c-8eb6-4e4a-9bd6-665abcbac951.png)
+
+
 
 **Figure 1.** Amount of Bike Shares
 
 Looking at the monthly usage trends for a full year of bike-sharing data, the demand for bikes starts to drop in October, reaches the lowest point at February, then increases to reach the peak at August. When we look at the daily bicycle usage statistics, there're some significant drop in bicycle sharing usage on certain days, which we consider them as public holidays. 
 
-![](media/image4.png) 
+![bike count](https://user-images.githubusercontent.com/8214596/209771200-3ced9ef0-69f2-4fb6-8087-63c80d9a700d.png)
 
 **Figure 2.** Box Plot on Bike Share Count
 
 The box plot of overall bike-sharing demand shows that the data spans a wide range, while half of the data is distributed between 800 and 5200, and the median demand is about 2800. 
 
-![](media/image5.png)** **
+![12monthly demand](https://user-images.githubusercontent.com/8214596/209771211-d3821a80-b5b1-4515-b939-90a949486b7f.png)
 
 **Figure 3.** Box Plot on Count Across Months
 
 The box plot of bike-sharing demand for each month of the year shows that the period of the year with the highest demand for bike-sharing is from June to September, considering that the temperature and climate in summer are more suitable for people to Choose cycling as a mode of transportation. More specifically, the demand for bikes in summer is about twice as high as in winter. 
 
-![](media/image6.png) 
+![weather cond](https://user-images.githubusercontent.com/8214596/209771225-ccf53533-f2de-4b3b-a62c-01895199e528.png)
 
 **Figure 4.** Box Plot on Count Across Weather Conditions
 
 We next examined the weather conditions index and saw that more users chose bike-sharing trips when the weather conditions value was between 0 and 4. However, when the weather conditions value rises to 5, the demand for bike-sharing rapidly decreases and there are more outliers, indicating that the choice of bike-sharing users for weather conditions value of 5 varies more. When the weather is more severe, very few users continue to choose bicycle travel. 
 
-![](media/image7.png)** **
+![week:day](https://user-images.githubusercontent.com/8214596/209771237-1b72261c-5675-4969-9ad3-2d509ca253d6.png)
 
 **Figure 5.** Box Plot on Count Across Working Days
 
 The statistics for weekend and weekday bicycle demand show that there is no significant difference between the two figures, with values ranging roughly from 1000 to 5500. 
 
-![](media/image8.png) 
+![hourly demand](https://user-images.githubusercontent.com/8214596/209771247-9f34dc9e-932c-45f4-8564-f1b72c6669a0.png)
 
 **Figure 6.** Box Plot on Count Across Hour of the Day
 
 When the demand for shared bikes is counted on an hourly basis, it can be seen that 8 a.m. and 6 p.m. are the two peak times for shared bike use. These two times are also the peak commuting times for most citizens. Bike usage at 6 p.m. is significantly higher than 8 a.m., indicating that more users prefer riding off work than riding to work. 
 
-![](media/image9.png)
+![temperature:demand](https://user-images.githubusercontent.com/8214596/209771254-5317f036-ddf6-42f9-9003-7ea59d661624.png)
 
 ** Figure 7.** Box Plot on Count Across Temperature
 
@@ -145,15 +147,15 @@ The graph of the relationship between temperature and bike-sharing usage shows t
 
 LSTM network is another variant model based on Recurrent Neural Network (RNN), in which each independent RNN unit in the transmission chain passes the information extracted by itself to the next independent unit, and when the length of the transmission chain increases to a certain level, information is lost and "forgetting" occurs. ". To solve this dependency problem, Hochreiter et al. first proposed LSTM (Hochreiter & Schmidhuber, 1997) in 1997. The independent RNN unit and RNN structure are shown in Figs. 7 and 8. 
 
-![](media/image10.png) 
+![ind_rnn_unit](https://user-images.githubusercontent.com/8214596/209771272-fb0189fd-1a54-4516-8eff-dfc72d3820a2.png)
 
 **Figure 8.** Independent RNN Unit 
 
-![](media/image11.png) 
+![rnn](https://user-images.githubusercontent.com/8214596/209771294-a1696a0c-794a-4edc-abeb-73954235183b.png)
 
 **Figure 9.** RNN Structure 
 
-![](media/image12.png)
+![lstm_cell](https://user-images.githubusercontent.com/8214596/209771306-566d087b-0c4e-48ee-aa18-b17e82d7a0ff.png)
 
 **Figure 10.** LSTM Cell Structure 
 
@@ -179,7 +181,7 @@ $h_{t} = o_{t} \times tanh(C_{t})$ （6）
 
 **4.2 Bi-LSTM **
 
-![](media/image13.png)
+![bi_lstm_structure](https://user-images.githubusercontent.com/8214596/209771340-7c9839d5-fa32-4d32-a840-c703949b486e.png)
 
 **Figure 11.** Bi-LSTM Structure 
 
@@ -216,7 +218,7 @@ The model is trained according to the model structure and learning strategy that
 | 50     | 32        | 644     | 420     |
 | 30     | 64        | 655     | 426     |
 
-![](media/image14.png)
+![loss plot](https://user-images.githubusercontent.com/8214596/209771354-13e1b569-0aef-4337-893f-1d0ccff92f77.png)
 
 **Figure 12.** Loss Function
 
@@ -226,7 +228,7 @@ Figure 12 shows the changing loss function of the model in the training and test
 
 Choose 400 prediction results arbitrarily and visualize in the graph below.  
 
-![](media/image15.png) 
+![pred_result](https://user-images.githubusercontent.com/8214596/209771364-5b6f602d-9a68-4516-a873-695b0dfc0da8.png)
 
 **Figure 13.** Prediction Results
 
