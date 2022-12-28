@@ -63,7 +63,7 @@ New York has a temperate continental humid climate with cold winters and cool su
 
 The Hudson River in New York flows through the Hudson Valley and enters New York Bay, dividing New York City and New Jersey. The East River flows through Long Island Sound, separating the Bronx and Manhattan from Long Island. The Harlem River lies between the East River and the Hudson River, separating the boroughs of Manhattan and the Bronx. The Bronx River, which flows through the Bronx and Westchester County, is the only river in New York City that is all fresh water.
 
-![地图 描述已自动生成](media/image1.jpeg)
+![地图 描述已自动生成](Figures/Study Areajpg.jpg)
 
 2.  Datasets
 
