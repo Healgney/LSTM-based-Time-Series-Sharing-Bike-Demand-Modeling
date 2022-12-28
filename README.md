@@ -43,15 +43,17 @@ Unfortunately, these deep learning models based on time-series prediction cannot
 
 Among similar deep learning algorithms, there is another integrated model called T-GCN (Temporal Graph Convolutional Network), which is a neural network-based traffic prediction method. Unlike CNN (Convolutional Neural Network), T-GCN combines Graph Convolutional Network (GCN) and Gated Recursive Unit (GRU) to capture spatial dependencies by learning complex topology with GCN, and temporal dependencies by learning dynamic changes of traffic data with GRU. Therefore, T-GCN has the capability of temporal feature learning and can capture both spatial and temporal dependencies simultaneously. Zhao et al. proposed T-GCN model which combines the GCN with the GRU. This model can extract the spatio-temporal correlation from traffic data, and its predictions on real-world traffic datasets exceed state-of-the-art baselines (Zhao et al., 2020).
 
+&nbsp;
+
 3.  **Objectives**
 
 - Dealing with weather and temporal features. Explore, analyze and quantify how weather and temporal features effect the demand of shared bikes.
 
 - Use the LSTM algorithm to predict and analyze the demand for shared bicycles on a whole system scale at each time period.
 
-4.  **Study Area and Datasets**
-
 &nbsp;
+
+4.  **Study Area and Datasets**
 
 **4.1  Study Area**
 
@@ -137,7 +139,7 @@ When the demand for shared bikes is counted on an hourly basis, it can be seen t
 
 ![temperature:demand](https://user-images.githubusercontent.com/8214596/209771254-5317f036-ddf6-42f9-9003-7ea59d661624.png)
 
-** Figure 7.** Box Plot on Count Across Temperature
+**Figure 7.** Box Plot on Count Across Temperature
 
 The graph of the relationship between temperature and bike-sharing usage shows that few people choose to travel by bike when the temperature is below zero. When the temperature is between 0 and 10 degrees, the demand for bikes rises, however, the usage is mostly 400 to 800 per hour, which is still a relatively small value. When the temperature is above 10 degrees, the demand rises as the temperature rises, and at a temperature of around 28 to 30 degrees, the maximum hourly bicycle demand occurs, at around 12,400. 
 
