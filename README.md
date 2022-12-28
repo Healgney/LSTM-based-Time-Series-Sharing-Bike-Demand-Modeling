@@ -254,7 +254,7 @@ The Bi-LSTM model can predict the data well, and the predicted hourly usage curv
 
 **Table 3.** Feature Results 
 
-| Features                                     | Error Evaluation                                                     |
+| Features                                     | Error Evaluation ｜                   ｜        ｜                    |
 | -------------------------------------------- | ---------------- | ------------------ | ------- | ------------------ |
 |                                              | RMSE             | Accuracy Decreased | MAE     | Accuracy Decreased |
 | **Complete data**                            | **632**          | **-**              | **391** | **-**              |
