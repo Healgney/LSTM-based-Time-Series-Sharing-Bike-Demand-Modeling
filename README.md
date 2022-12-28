@@ -143,7 +143,7 @@ The graph of the relationship between temperature and bike-sharing usage shows t
 
 5.  **Methodology**
 
-**5.1 Introduction of LSTM  **
+**5.1 Introduction of LSTM**
 
 LSTM network is another variant model based on Recurrent Neural Network (RNN), in which each independent RNN unit in the transmission chain passes the information extracted by itself to the next independent unit, and when the length of the transmission chain increases to a certain level, information is lost and "forgetting" occurs. ". To solve this dependency problem, Hochreiter et al. first proposed LSTM (Hochreiter & Schmidhuber, 1997) in 1997. The independent RNN unit and RNN structure are shown in Figs. 7 and 8. 
 
