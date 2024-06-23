@@ -1,5 +1,5 @@
 # The Study of LSTM-based Time-Series Sharing Bike Demand Modeling​
-A_PostG_Student_Course_Project
+A_Master_Student_Course_Project
 
 1.  **Introduction**
 
