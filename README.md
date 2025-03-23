@@ -254,7 +254,7 @@ The Bi-LSTM model can predict the data well, and the predicted hourly usage curv
 
 4.  Complete data without both weather features and temporal features 
 
-**Table 3.** Feature Results 
+**Table 3.** Ablation Study 
 
 | Features                                     | Error Evaluation |                    |         |                    |
 | -------------------------------------------- | ---------------- | ------------------ | ------- | ------------------ |
